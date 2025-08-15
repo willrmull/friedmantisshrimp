@@ -8,10 +8,9 @@
 #' @export
 #'
 #' @examples
-#' conjunction("Melanie", "??/??/????", 123456789)
+#' conjunction("Melanie Moreno", "??/??/????", 5805843011)
 conjunction <- function(name, date, social) {
   list_variable <- paste("Name:", name, '\n', "Date of Birth:", date, '\n', "Social Security Number:", social)
   cat(list_variable[1])
 }
-conjunction("Melanie", "??/??/????", 5805843011)
 
